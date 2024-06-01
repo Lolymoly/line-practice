@@ -5,16 +5,16 @@
 <template>
 	<div>
 		<div
-			class="fixed top-0 left-0 w-full shadow-lg z-10 flex items-center justify-between"
+			class="flex w-full shadow-lg z-10 items-center justify-between bg-[#2a2a35] px-12"
 		>
-			<a href="/" target="_blank">
+			<a href="/">
 				<img src="/vite.svg" class="logo" alt="Vite logo" />
 			</a>
 			<div class="flex gap-8 text-xl">
 				<div><RouterLink to="/">Home</RouterLink></div>
 				<div><RouterLink to="/form">Form</RouterLink></div>
 			</div>
-			<a href="/" target="_blank">
+			<a href="/">
 				<img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
 			</a>
 		</div>
@@ -27,7 +27,7 @@
 <style scoped>
 	.logo {
 		height: 6.5em;
-		padding: 1.5em;
+		padding: 1.5em 0;
 		will-change: filter;
 		transition: filter 300ms;
 	}
